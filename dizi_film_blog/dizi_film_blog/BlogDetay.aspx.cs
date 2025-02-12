@@ -1,0 +1,26 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using dizi_film_blog.Entity;
+
+namespace dizi_film_blog
+{
+    public partial class BlogDetay : System.Web.UI.Page
+    {
+        dizi_filmBlogEntities db = new dizi_filmBlogEntities();
+        protected void Page_Load(object sender, EventArgs e)
+        {
+            int id = Convert.ToInt32(Request.QueryString["blogID"]);
+            var blog = db.blog.Where(x=> x.blogID==id).ToList(); 
+            Repeater1.DataSource = blog;
+            Repeater1.DataBind();
+            
+            var yorumlar=db.yorum.Where(y=> y.yorumBlog==id).ToList();
+            Repeater2.DataSource = yorumlar;
+            Repeater2.DataBind();
+        }
+    }
+}
