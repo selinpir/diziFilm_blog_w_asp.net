@@ -25,7 +25,7 @@
             </div>
             <div class="col-md-4 content-right">
                 <div class="recent">
-                      <h3>En Son Yazılar</h3>
+                    <h3>En Son Yazılar</h3>
                     <asp:Repeater ID="Repeater3" runat="server">
                         <ItemTemplate>
                             <ul>

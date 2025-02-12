@@ -22,5 +22,21 @@ namespace dizi_film_blog
             Repeater2.DataSource = yorumlar;
             Repeater2.DataBind();
         }
+
+    
+
+        protected void TextBox4_Click(object sender, EventArgs e)
+        {
+
+            int id = Convert.ToInt32(Request.QueryString["blogID"]);
+            yorum t = new yorum();
+            t.kullaniciAdi = TextBox1.Text;
+            t.mail = TextBox2.Text;
+            t.yorumIcerik = TextBox3.Text;
+            t.yorumBlog = id;
+            db.yorum.Add(t);
+            db.SaveChanges();
+            Response.Redirect("BlogDetay.aspx?blogID="+id);
+        }
     }
 }

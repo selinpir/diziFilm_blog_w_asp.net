@@ -37,7 +37,7 @@
                         <asp:TextBox ID="TextBox1" runat="server" placeholder="Kullanıcı Adınız" required="" ></asp:TextBox>
                         <asp:TextBox ID="TextBox2" runat="server" placeholder="Mail Adresiniz" ></asp:TextBox>
                         <asp:TextBox ID="TextBox3" runat="server" placeholder="Yorumunuz" TextMode="MultiLine" Height="60"></asp:TextBox>
-                        <asp:Button ID="yorum_yap" runat="server" Text="Gönder" />
+                        <asp:Button ID="TextBox4" runat="server" Text="Gönder" OnClick="TextBox4_Click" />
                     </form>
                 </div>
             </div>

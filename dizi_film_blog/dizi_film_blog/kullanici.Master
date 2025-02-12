@@ -58,11 +58,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 </div>
                 <span class="menu"></span>
                 <ul>
-                    <li class="active"><a href="web/index.html">Ana Sayfa</a></li>
-                    <li><a href="contact.html">Film Önerileri</a></li>
-                    <li><a href="contact.html">Dizi Önerileri</a></li>
-                    <li><a href="contact.html">İletişim</a></li>
-                </ul>
+                    <li class="active"><a href="default.aspx">Ana Sayfa</a></li>
+                    <li><a href="hakkimda.aspx">Hakkımızda</a></li>
+                    <li><a href="iletisim.aspx">İletişim</a></li>
+                    </ul>
             </div>
             <div class="clearfix"></div>
             <script>
