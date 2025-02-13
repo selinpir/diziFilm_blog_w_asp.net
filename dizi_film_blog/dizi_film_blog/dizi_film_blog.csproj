@@ -75,8 +75,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AdminSayfalar\blogGuncellle.aspx" />
     <Content Include="AdminSayfalar\Bloglar.aspx" />
     <Content Include="BlogDetay.aspx" />
+    <Content Include="AdminSayfalar\blogSil.aspx" />
     <Content Include="default.aspx" />
     <Content Include="Entity\Model1.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
@@ -112,7 +114,7 @@
     <Content Include="web\single.html" />
     <Content Include="web\w3layouts-License.txt" />
     <Content Include="web\Yeni Metin Belgesi.txt" />
-    <Content Include="yeniBlog.aspx" />
+    <Content Include="AdminSayfalar\yeniBlog.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AdminPaneli.Master.cs">
@@ -121,6 +123,13 @@
     </Compile>
     <Compile Include="AdminPaneli.Master.designer.cs">
       <DependentUpon>AdminPaneli.Master</DependentUpon>
+    </Compile>
+    <Compile Include="AdminSayfalar\blogGuncellle.aspx.cs">
+      <DependentUpon>blogGuncellle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminSayfalar\blogGuncellle.aspx.designer.cs">
+      <DependentUpon>blogGuncellle.aspx</DependentUpon>
     </Compile>
     <Compile Include="AdminSayfalar\Bloglar.aspx.cs">
       <DependentUpon>Bloglar.aspx</DependentUpon>
@@ -135,6 +144,13 @@
     </Compile>
     <Compile Include="BlogDetay.aspx.designer.cs">
       <DependentUpon>BlogDetay.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminSayfalar\blogSil.aspx.cs">
+      <DependentUpon>blogSil.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminSayfalar\blogSil.aspx.designer.cs">
+      <DependentUpon>blogSil.aspx</DependentUpon>
     </Compile>
     <Compile Include="default.aspx.cs">
       <DependentUpon>default.aspx</DependentUpon>
@@ -201,11 +217,11 @@
       <DependentUpon>kullanici.Master</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="yeniBlog.aspx.cs">
+    <Compile Include="AdminSayfalar\yeniBlog.aspx.cs">
       <DependentUpon>yeniBlog.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="yeniBlog.aspx.designer.cs">
+    <Compile Include="AdminSayfalar\yeniBlog.aspx.designer.cs">
       <DependentUpon>yeniBlog.aspx</DependentUpon>
     </Compile>
   </ItemGroup>

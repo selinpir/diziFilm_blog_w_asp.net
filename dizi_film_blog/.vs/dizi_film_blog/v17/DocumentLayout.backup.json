@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\masaustu_yedek\\GITHUB\\diziFilm_blog_w_asp.net\\dizi_film_blog\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{696F75D7-37A2-4464-B419-BE71276D0E94}|dizi_film_blog\\dizi_film_blog.csproj|d:\\masaustu_yedek\\github\\dizifilm_blog_w_asp.net\\dizi_film_blog\\dizi_film_blog\\yeniblog.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{696F75D7-37A2-4464-B419-BE71276D0E94}|dizi_film_blog\\dizi_film_blog.csproj|solutionrelative:dizi_film_blog\\yeniblog.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{696F75D7-37A2-4464-B419-BE71276D0E94}|dizi_film_blog\\dizi_film_blog.csproj|d:\\masaustu_yedek\\github\\dizifilm_blog_w_asp.net\\dizi_film_blog\\dizi_film_blog\\yeniblog.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{696F75D7-37A2-4464-B419-BE71276D0E94}|dizi_film_blog\\dizi_film_blog.csproj|solutionrelative:dizi_film_blog\\yeniblog.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{696F75D7-37A2-4464-B419-BE71276D0E94}|dizi_film_blog\\dizi_film_blog.csproj|d:\\masaustu_yedek\\github\\dizifilm_blog_w_asp.net\\dizi_film_blog\\dizi_film_blog\\adminsayfalar\\bloglar.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{696F75D7-37A2-4464-B419-BE71276D0E94}|dizi_film_blog\\dizi_film_blog.csproj|solutionrelative:dizi_film_blog\\adminsayfalar\\bloglar.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{696F75D7-37A2-4464-B419-BE71276D0E94}|dizi_film_blog\\dizi_film_blog.csproj|d:\\masaustu_yedek\\github\\dizifilm_blog_w_asp.net\\dizi_film_blog\\dizi_film_blog\\adminsayfalar\\blogguncellle.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{696F75D7-37A2-4464-B419-BE71276D0E94}|dizi_film_blog\\dizi_film_blog.csproj|solutionrelative:dizi_film_blog\\adminsayfalar\\blogguncellle.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{696F75D7-37A2-4464-B419-BE71276D0E94}|dizi_film_blog\\dizi_film_blog.csproj|d:\\masaustu_yedek\\github\\dizifilm_blog_w_asp.net\\dizi_film_blog\\dizi_film_blog\\adminsayfalar\\blogguncellle.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{696F75D7-37A2-4464-B419-BE71276D0E94}|dizi_film_blog\\dizi_film_blog.csproj|solutionrelative:dizi_film_blog\\adminsayfalar\\blogguncellle.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,11 +22,11 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Bloglar.aspx",
               "DocumentMoniker": "D:\\masaustu_yedek\\GITHUB\\diziFilm_blog_w_asp.net\\dizi_film_blog\\dizi_film_blog\\AdminSayfalar\\Bloglar.aspx",
               "RelativeDocumentMoniker": "dizi_film_blog\\AdminSayfalar\\Bloglar.aspx",
@@ -34,33 +34,33 @@
               "RelativeToolTip": "dizi_film_blog\\AdminSayfalar\\Bloglar.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-02-12T21:25:22.853Z",
+              "WhenOpened": "2025-02-13T15:40:36.45Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "yeniBlog.aspx",
-              "DocumentMoniker": "D:\\masaustu_yedek\\GITHUB\\diziFilm_blog_w_asp.net\\dizi_film_blog\\dizi_film_blog\\yeniBlog.aspx",
-              "RelativeDocumentMoniker": "dizi_film_blog\\yeniBlog.aspx",
-              "ToolTip": "D:\\masaustu_yedek\\GITHUB\\diziFilm_blog_w_asp.net\\dizi_film_blog\\dizi_film_blog\\yeniBlog.aspx",
-              "RelativeToolTip": "dizi_film_blog\\yeniBlog.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-02-12T21:10:50.198Z",
+              "Title": "blogGuncellle.aspx.cs",
+              "DocumentMoniker": "D:\\masaustu_yedek\\GITHUB\\diziFilm_blog_w_asp.net\\dizi_film_blog\\dizi_film_blog\\AdminSayfalar\\blogGuncellle.aspx.cs",
+              "RelativeDocumentMoniker": "dizi_film_blog\\AdminSayfalar\\blogGuncellle.aspx.cs",
+              "ToolTip": "D:\\masaustu_yedek\\GITHUB\\diziFilm_blog_w_asp.net\\dizi_film_blog\\dizi_film_blog\\AdminSayfalar\\blogGuncellle.aspx.cs",
+              "RelativeToolTip": "dizi_film_blog\\AdminSayfalar\\blogGuncellle.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T15:39:02.659Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "yeniBlog.aspx.cs",
-              "DocumentMoniker": "D:\\masaustu_yedek\\GITHUB\\diziFilm_blog_w_asp.net\\dizi_film_blog\\dizi_film_blog\\yeniBlog.aspx.cs",
-              "RelativeDocumentMoniker": "dizi_film_blog\\yeniBlog.aspx.cs",
-              "ToolTip": "D:\\masaustu_yedek\\GITHUB\\diziFilm_blog_w_asp.net\\dizi_film_blog\\dizi_film_blog\\yeniBlog.aspx.cs*",
-              "RelativeToolTip": "dizi_film_blog\\yeniBlog.aspx.cs*",
-              "ViewState": "AgIAACcAAAAAAAAAAAAmwDEAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T21:10:54.096Z",
+              "DocumentIndex": 2,
+              "Title": "blogGuncellle.aspx",
+              "DocumentMoniker": "D:\\masaustu_yedek\\GITHUB\\diziFilm_blog_w_asp.net\\dizi_film_blog\\dizi_film_blog\\AdminSayfalar\\blogGuncellle.aspx",
+              "RelativeDocumentMoniker": "dizi_film_blog\\AdminSayfalar\\blogGuncellle.aspx",
+              "ToolTip": "D:\\masaustu_yedek\\GITHUB\\diziFilm_blog_w_asp.net\\dizi_film_blog\\dizi_film_blog\\AdminSayfalar\\blogGuncellle.aspx",
+              "RelativeToolTip": "dizi_film_blog\\AdminSayfalar\\blogGuncellle.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-02-13T15:37:30.03Z",
               "EditorCaption": ""
             }
           ]

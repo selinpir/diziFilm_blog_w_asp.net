@@ -21,14 +21,21 @@
                     <td><%# Eval("blogTarih") %> </td>
                     <td><%# Eval("blogTur") %> </td>
                     <td><%# Eval("blogKategori") %> </td>
-                       <td>
-                           <a href="#" class="btn btn-warning">Sil</a>
-                           <a href="#" class="btn btn-danger">Güncelle</a>
-                       </td>
+                    <td>
+                       
+                        <asp:HyperLink ID="HyperLink2" runat="server"
+                            NavigateUrl='<%# ResolveUrl("~/AdminSayfalar/blogSil.aspx?blogID=" + Eval("blogID")) %>'
+                            CssClass="btn btn-danger">Sil</asp:HyperLink>
+
+                        <asp:HyperLink ID="HyperLink1" runat="server"
+                            NavigateUrl='<%# ResolveUrl("~/AdminSayfalar/blogGuncellle.aspx?blogID=" + Eval("blogID")) %>'
+                            CssClass="btn btn-warning">Güncelle</asp:HyperLink>
+                       
+                    </td>
                 </tr>
             </ItemTemplate>
         </asp:Repeater>
     </table>
-    <a href="/yeniBlog.aspx" class="btn btn-primary">Yeni Blog</a>
+    <a href="yeniBlog.aspx" class="btn btn-primary">Yeni Blog</a>
 
 </asp:Content>

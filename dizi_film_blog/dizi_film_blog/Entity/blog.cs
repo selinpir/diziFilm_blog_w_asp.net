@@ -32,5 +32,7 @@ namespace dizi_film_blog.Entity
         public virtual tur tur { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<yorum> yorum { get; set; }
+        public byte kategoriID { get; internal set; }
+        public byte turID { get; internal set; }
     }
 }
