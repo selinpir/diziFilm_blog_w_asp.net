@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f7aa2e8fbf9a45c18bf5cb89ee0805fc" Name="Diagram1">
+        <EntityTypeShape EntityType="dizi_filmBlogModel1.blog" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="dizi_filmBlogModel1.hakkimizda" Width="1.5" PointX="2.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="dizi_filmBlogModel1.iletisim" Width="1.5" PointX="4.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="dizi_filmBlogModel1.kategori" Width="1.5" PointX="0.75" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="dizi_filmBlogModel1.sosyalMedya" Width="1.5" PointX="6.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="dizi_filmBlogModel1.sysdiagrams" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="dizi_filmBlogModel1.tur" Width="1.5" PointX="0.75" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="dizi_filmBlogModel1.yorum" Width="1.5" PointX="5.25" PointY="1.375" IsExpanded="true" />
+        <AssociationConnector Association="dizi_filmBlogModel1.FK_blog_kategori" ManuallyRouted="false" />
+        <AssociationConnector Association="dizi_filmBlogModel1.FK_blog_tur" ManuallyRouted="false" />
+        <AssociationConnector Association="dizi_filmBlogModel1.FK_yorum_blog" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

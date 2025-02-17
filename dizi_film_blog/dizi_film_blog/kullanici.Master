@@ -43,24 +43,18 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <div class="header">
         <div class="container">
             <div class="logo">
-                <a href="index.html">
-                    <img src="web/images/logo.jpeg" alt="Logo" title="" width="200" height="200"   />
-
+                <a href="default.aspx">
+                  <img src="/web/images/logo.jpg" alt="Logo" width="155" height="155" />
                 </a>
             </div>
             <!---start-top-nav---->
-            <div class="top-menu">
-                <div class="search">
-                    <form>
-                        <input type="text" placeholder="" required="">
-                        <input type="submit" value="" />
-                    </form>
-                </div>
+            <div class="top-menu">            
                 <span class="menu"></span>
                 <ul>
                     <li class="active"><a href="default.aspx">Ana Sayfa</a></li>
                     <li><a href="hakkimda.aspx">Hakkımızda</a></li>
                     <li><a href="iletisim.aspx">İletişim</a></li>
+                    <li><a href="sosyalMedya.aspx">LetterBoxd & ...</a></li>
                     </ul>
             </div>
             <div class="clearfix"></div>

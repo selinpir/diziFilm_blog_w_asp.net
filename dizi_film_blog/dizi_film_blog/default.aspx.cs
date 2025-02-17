@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
+using System.Data;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
@@ -15,7 +17,7 @@ namespace dizi_film_blog
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            var bloglar=db.blog.ToList(); //genel bilgi
+            var bloglar=db.blog.OrderByDescending(b => b.blogTarih).ToList(); //genel bilgi
             Repeater2.DataSource = bloglar;
             Repeater2.DataBind();
 
@@ -23,9 +25,21 @@ namespace dizi_film_blog
             Repeater1.DataSource = kategoriler;
             Repeater1.DataBind();
 
-            var enSonYazilar =db.blog.ToList();
+            var enSonYazilar = db.blog.OrderByDescending(b => b.blogTarih).Take(4).ToList();
             Repeater3.DataSource = enSonYazilar;
             Repeater3.DataBind();
         }
+
+        public string GetShortContent(string content)
+        {
+            int maxLength = 150; // Görüntülenecek maksimum karakter uzunluğu
+            if (string.IsNullOrEmpty(content))
+                return string.Empty;
+
+            return content.Length > maxLength ? content.Substring(0, maxLength) + "..." : content;
+        }
+
+    
     }
+
 }

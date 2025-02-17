@@ -12,6 +12,8 @@
             <th>SİL & GÜNCELLE</th>
         </tr>
 
+        <asp:Label ID="Label1" runat="server" Text="Bloglar" CssClass="text-center text-primary" Font-Size="25px" Font-Bold="true"></asp:Label>
+        <br />
         <asp:Repeater ID="Repeater1" runat="server">
             <ItemTemplate>
                 <tr>

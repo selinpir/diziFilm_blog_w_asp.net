@@ -77,6 +77,10 @@
   <ItemGroup>
     <Content Include="AdminSayfalar\blogGuncellle.aspx" />
     <Content Include="AdminSayfalar\Bloglar.aspx" />
+    <Content Include="AdminSayfalar\istatistik.aspx" />
+    <Content Include="AdminSayfalar\yorumGuncelle.aspx" />
+    <Content Include="AdminSayfalar\yorumlar.aspx" />
+    <Content Include="AdminSayfalar\yorumSil.aspx" />
     <Content Include="BlogDetay.aspx" />
     <Content Include="AdminSayfalar\blogSil.aspx" />
     <Content Include="default.aspx" />
@@ -90,9 +94,25 @@
       <DependentUpon>Model1.edmx</DependentUpon>
       <LastGenOutput>Model1.cs</LastGenOutput>
     </Content>
+    <Content Include="Entity\sosyalMedya.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>sosyalMedya.edmx</DependentUpon>
+      <LastGenOutput>sosyalMedya.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Entity\sosyalMedya.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>sosyalMedya.edmx</DependentUpon>
+      <LastGenOutput>sosyalMedya1.cs</LastGenOutput>
+    </Content>
     <Content Include="hakkimda.aspx" />
     <Content Include="iletisim.aspx" />
+    <Content Include="kategoriDetay.aspx" />
+    <Content Include="login.aspx" />
+    <Content Include="sosyalMedya.aspx" />
     <Content Include="Web.config" />
+    <Content Include="weblogin\css\style.css" />
+    <Content Include="weblogin\images\b1.jpg" />
+    <Content Include="weblogin\index.html" />
     <Content Include="web\about.html" />
     <Content Include="web\contact.html" />
     <Content Include="web\css\bootstrap.css" />
@@ -100,7 +120,6 @@
     <Content Include="web\images\avatar.png" />
     <Content Include="web\images\food.jpg" />
     <Content Include="web\images\icon3.png" />
-    <Content Include="web\images\logo.jpg" />
     <Content Include="web\images\man.jpg" />
     <Content Include="web\images\more.png" />
     <Content Include="web\images\post1.jpg" />
@@ -113,7 +132,6 @@
     <Content Include="web\js\move-top.js" />
     <Content Include="web\single.html" />
     <Content Include="web\w3layouts-License.txt" />
-    <Content Include="web\Yeni Metin Belgesi.txt" />
     <Content Include="AdminSayfalar\yeniBlog.aspx" />
   </ItemGroup>
   <ItemGroup>
@@ -138,6 +156,34 @@
     <Compile Include="AdminSayfalar\Bloglar.aspx.designer.cs">
       <DependentUpon>Bloglar.aspx</DependentUpon>
     </Compile>
+    <Compile Include="AdminSayfalar\istatistik.aspx.cs">
+      <DependentUpon>istatistik.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminSayfalar\istatistik.aspx.designer.cs">
+      <DependentUpon>istatistik.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminSayfalar\yorumGuncelle.aspx.cs">
+      <DependentUpon>yorumGuncelle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminSayfalar\yorumGuncelle.aspx.designer.cs">
+      <DependentUpon>yorumGuncelle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminSayfalar\yorumlar.aspx.cs">
+      <DependentUpon>yorumlar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminSayfalar\yorumlar.aspx.designer.cs">
+      <DependentUpon>yorumlar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminSayfalar\yorumSil.aspx.cs">
+      <DependentUpon>yorumSil.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminSayfalar\yorumSil.aspx.designer.cs">
+      <DependentUpon>yorumSil.aspx</DependentUpon>
+    </Compile>
     <Compile Include="BlogDetay.aspx.cs">
       <DependentUpon>BlogDetay.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -160,16 +206,16 @@
       <DependentUpon>default.aspx</DependentUpon>
     </Compile>
     <Compile Include="Entity\blog.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>sosyalMedya.tt</DependentUpon>
     </Compile>
     <Compile Include="Entity\hakkimizda.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>sosyalMedya.tt</DependentUpon>
     </Compile>
     <Compile Include="Entity\iletisim.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>sosyalMedya.tt</DependentUpon>
     </Compile>
     <Compile Include="Entity\kategori.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>sosyalMedya.tt</DependentUpon>
     </Compile>
     <Compile Include="Entity\Model1.Context.cs">
       <AutoGen>True</AutoGen>
@@ -186,14 +232,32 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Model1.edmx</DependentUpon>
     </Compile>
+    <Compile Include="Entity\sosyalMedya.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>sosyalMedya.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Entity\sosyalMedya.cs">
+      <DependentUpon>sosyalMedya.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Entity\sosyalMedya.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>sosyalMedya.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Entity\sosyalMedya1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>sosyalMedya.tt</DependentUpon>
+    </Compile>
     <Compile Include="Entity\sysdiagrams.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>sosyalMedya.tt</DependentUpon>
     </Compile>
     <Compile Include="Entity\tur.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>sosyalMedya.tt</DependentUpon>
     </Compile>
     <Compile Include="Entity\yorum.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>sosyalMedya.tt</DependentUpon>
     </Compile>
     <Compile Include="hakkimda.aspx.cs">
       <DependentUpon>hakkimda.aspx</DependentUpon>
@@ -209,12 +273,26 @@
     <Compile Include="iletisim.aspx.designer.cs">
       <DependentUpon>iletisim.aspx</DependentUpon>
     </Compile>
+    <Compile Include="kategoriDetay.aspx.cs">
+      <DependentUpon>kategoriDetay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="kategoriDetay.aspx.designer.cs">
+      <DependentUpon>kategoriDetay.aspx</DependentUpon>
+    </Compile>
     <Compile Include="kullanici.Master.cs">
       <DependentUpon>kullanici.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="kullanici.Master.designer.cs">
       <DependentUpon>kullanici.Master</DependentUpon>
+    </Compile>
+    <Compile Include="login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="AdminSayfalar\yeniBlog.aspx.cs">
@@ -223,6 +301,13 @@
     </Compile>
     <Compile Include="AdminSayfalar\yeniBlog.aspx.designer.cs">
       <DependentUpon>yeniBlog.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sosyalMedya.aspx.cs">
+      <DependentUpon>sosyalMedya.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sosyalMedya.aspx.designer.cs">
+      <DependentUpon>sosyalMedya.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -234,6 +319,13 @@
     </EntityDeploy>
     <Content Include="Entity\Model1.edmx.diagram">
       <DependentUpon>Model1.edmx</DependentUpon>
+    </Content>
+    <EntityDeploy Include="Entity\sosyalMedya.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>sosyalMedya.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="Entity\sosyalMedya.edmx.diagram">
+      <DependentUpon>sosyalMedya.edmx</DependentUpon>
     </Content>
     <None Include="packages.config" />
     <None Include="Web.Debug.config">

@@ -27,5 +27,7 @@ namespace dizi_film_blog
 
             Response.Write("<script>alert('Mesajınız başarıyla gönderildi! Selinos mesajınızı okuyacaktır :) ');</script>");
         }
+
+       
     }
 }

@@ -6,7 +6,6 @@
             <div class="container">
                 <div class="contact-info">
                     <h2>İletişim</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Contrary to popular belief.</p>
                 </div>
                 <div class="contact-details">
                     <form runat="server">
@@ -17,6 +16,19 @@
                         <asp:TextBox ID="TextBox5" runat="server" placeholder="Mesajınız" required="" Height="50" TextMode="MultiLine"></asp:TextBox>
                         <asp:Button ID="Button1" runat="server" Text="Gönder" OnClick="Button1_Click" />
                     </form>
+                    <br />
+                    <button onclick="stajIste()" style="background: #B0C4DE; color: #4B4B4B; border: none; padding: 10px; cursor: pointer;">
+                        Beni staja alır mısınız?
+                    </button>
+
+                    <script>
+                        function stajIste() {
+                            alert("Staj fırsatı verirseniz, kendimi geliştirmek için elimden gelenin en iyisini yaparak katkı sağlamak isterim. Yazılım geliştirme, hata ayıklama, belgeler hazırlama ya da fotokopi çekmek gibi her türlü destek işlerinde yardımcı olabilirim.");
+
+                        }
+                    </script>
+                    <br />
+                    <br />
                 </div>
                 <div class="contact-details">
                     <div class="col-md-6 contact-map">
