@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
@@ -10,25 +9,39 @@ namespace dizi_film_blog
 {
     public partial class login : System.Web.UI.Page
     {
+        dizi_filmBlogEntities2 db = new dizi_filmBlogEntities2();
+
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (Session["kullanici"] != null)
+            {
+                Response.Redirect("/AdminSayfalar/Bloglar.aspx");
+            }
         }
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            var sorgu = from x in db.admin
-                        where
-                      x.KULLANICI == TextBox1.Text && x.SIFRE == TextBox2.Text
-                        select x;
-            if (sorgu.Any())
+            string kullaniciAdi = TextBox1.Text.Trim();
+            string sifre = TextBox2.Text.Trim();
+
+            var kullanici = db.admin.FirstOrDefault(x => x.kullanici == kullaniciAdi);
+
+            if (kullanici != null)
             {
-                Session.Add("KULLANICI", TextBox1.Text);
-                Response.Redirect("/AdminSayfalar/Bloglar.Aspx");
+                if (kullanici.sifre == sifre) 
+                {
+                    Session.Add("kullanici",TextBox1.Text);
+                   // Session["kullanici"] = kullaniciAdi;
+                    Response.Redirect("/AdminSayfalar/Bloglar.aspx");
+                }
+                else
+                {
+                    LabelHata.Text = "Şifre hatalı!";
+                }
             }
             else
             {
-                Response.Write("Hata");
+                LabelHata.Text = "Kullanıcı bulunamadı!";
             }
         }
     }

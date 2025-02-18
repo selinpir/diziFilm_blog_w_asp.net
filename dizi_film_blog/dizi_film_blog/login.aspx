@@ -1,57 +1,47 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="login.aspx.cs" Inherits="dizi_film_blog.login" %>
-
-<!--A Design by W3layouts
-   Author: W3layout
-   Author URL: http://w3layouts.com
-   License: Creative Commons Attribution 3.0 Unported
-   License URL: http://creativecommons.org/licenses/by/3.0/
-   -->
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 <head>
-    <title>Leda Login </title>
+    <title>Leda Login</title>
     <!-- Meta tags -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="keywords" content="Gaze Sign up & login Form Responsive Widget, Audio and Video players, Login Form Web Template, Flat Pricing Tables, Flat Drop-Downs, Sign-Up Web Templates, Flat Web Templates, Login Sign-up Responsive Web Template, Smartphone Compatible Web Template, Free Web Designs for Nokia, Samsung, LG, Sony Ericsson, Motorola Web Design" />
+    <meta name="keywords" content="Dizi & Film Blog, Login Paneli, ASP.NET, C# Web Giriş Sistemi" />
     <script>
-        addEventListener("load", function () { setTimeout(hideURLbar, 0); }, false); function hideURLbar() { window.scrollTo(0, 1); }
+        addEventListener("load", function () { setTimeout(hideURLbar, 0); }, false);
+        function hideURLbar() { window.scrollTo(0, 1); }
     </script>
-    <!-- Meta tags -->
-    <!--stylesheets-->
+    <!-- Stylesheets -->
     <link href="web/css/bootstrap.css" rel="stylesheet" />
     <link href="/weblogin/css/style.css" rel='stylesheet' type='text/css' media="all">
-    <!--//style sheet end here-->
     <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700" rel="stylesheet">
 </head>
 <body>
     <div class="mid-class">
         <div class="art-right-w3ls">
             <h2>Dizi & Film Login Paneli</h2>
-            <form action="#" method="post" runat="server">
+            <form runat="server">
                 <div class="main">
                     <div class="form-left-to-w3l">
-                        <asp:TextBox ID="TextBox1" runat="server" placeholder="Kullanıcı Adınız"></asp:TextBox>
+                        <asp:TextBox ID="TextBox1" runat="server" CssClass="form-control" placeholder="Kullanıcı Adınız"></asp:TextBox>
                     </div>
-                    <div class="form-left-to-w3l ">
-                        <asp:TextBox ID="TextBox2" runat="server" placeholder="Şifreniz" TextMode="Password"></asp:TextBox>
-                        <div class="clear"></div>
+                    <div class="form-left-to-w3l">
+                        <asp:TextBox ID="TextBox2" runat="server" CssClass="form-control" placeholder="Şifreniz" TextMode="Password"></asp:TextBox>
                     </div>
                 </div>
                 <div class="left-side-forget">
-                    <input type="checkbox" class="checked">
-                    <span class="remenber-me">Beni Hatırla</span>
+                    <asp:CheckBox ID="CheckBox1" runat="server" CssClass="checked" Text=" Beni Hatırla" />
                 </div>
                 <div class="right-side-forget">
                     <a href="#" class="for">Şifremi Unuttum</a>
                 </div>
-                <div class="clear"></div>
                 <br />
                 <div class="btnn">
-                    <asp:Button ID="Button1" runat="server" Text="Button" CssClass="btn btn-warning"  />
+                    <asp:Button ID="Button1" runat="server" Text="Giriş Yap" CssClass="btn btn-warning" OnClick="Button1_Click"/>
                 </div>
+                <br />
+                <asp:Label ID="LabelHata" runat="server" ForeColor="Red" CssClass="error-message"></asp:Label>
             </form>
-
         </div>
     </div>
     <footer class="bottem-wthree-footer">

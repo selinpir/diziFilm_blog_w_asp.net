@@ -32,5 +32,6 @@ namespace dizi_film_blog.Entity
         public virtual DbSet<sysdiagrams> sysdiagrams { get; set; }
         public virtual DbSet<tur> tur { get; set; }
         public virtual DbSet<yorum> yorum { get; set; }
+        public virtual DbSet<admin> admin { get; set; }
     }
 }

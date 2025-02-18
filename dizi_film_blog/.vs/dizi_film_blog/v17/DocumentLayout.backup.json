@@ -7,8 +7,16 @@
       "RelativeMoniker": "D:0:0:{696F75D7-37A2-4464-B419-BE71276D0E94}|dizi_film_blog\\dizi_film_blog.csproj|solutionrelative:dizi_film_blog\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{696F75D7-37A2-4464-B419-BE71276D0E94}|dizi_film_blog\\dizi_film_blog.csproj|d:\\masaustu_yedek\\github\\dizifilm_blog_w_asp.net\\dizi_film_blog\\dizi_film_blog\\weblogin\\images\\b1.jpg||{58961B49-13E0-48C0-9258-13CBC4D40279}",
-      "RelativeMoniker": "D:0:0:{696F75D7-37A2-4464-B419-BE71276D0E94}|dizi_film_blog\\dizi_film_blog.csproj|solutionrelative:dizi_film_blog\\weblogin\\images\\b1.jpg||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+      "AbsoluteMoniker": "D:0:0:{696F75D7-37A2-4464-B419-BE71276D0E94}|dizi_film_blog\\dizi_film_blog.csproj|D:\\masaustu_yedek\\GITHUB\\diziFilm_blog_w_asp.net\\dizi_film_blog\\dizi_film_blog\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{696F75D7-37A2-4464-B419-BE71276D0E94}|dizi_film_blog\\dizi_film_blog.csproj|solutionrelative:dizi_film_blog\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{696F75D7-37A2-4464-B419-BE71276D0E94}|dizi_film_blog\\dizi_film_blog.csproj|d:\\masaustu_yedek\\github\\dizifilm_blog_w_asp.net\\dizi_film_blog\\dizi_film_blog\\adminsayfalar\\bloglar.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{696F75D7-37A2-4464-B419-BE71276D0E94}|dizi_film_blog\\dizi_film_blog.csproj|solutionrelative:dizi_film_blog\\adminsayfalar\\bloglar.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{696F75D7-37A2-4464-B419-BE71276D0E94}|dizi_film_blog\\dizi_film_blog.csproj|d:\\masaustu_yedek\\github\\dizifilm_blog_w_asp.net\\dizi_film_blog\\dizi_film_blog\\adminsayfalar\\bloglar.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{696F75D7-37A2-4464-B419-BE71276D0E94}|dizi_film_blog\\dizi_film_blog.csproj|solutionrelative:dizi_film_blog\\adminsayfalar\\bloglar.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,13 +31,15 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "b1.jpg",
-              "DocumentMoniker": "D:\\masaustu_yedek\\GITHUB\\diziFilm_blog_w_asp.net\\dizi_film_blog\\dizi_film_blog\\weblogin\\images\\b1.jpg",
-              "RelativeDocumentMoniker": "dizi_film_blog\\weblogin\\images\\b1.jpg",
-              "ToolTip": "D:\\masaustu_yedek\\GITHUB\\diziFilm_blog_w_asp.net\\dizi_film_blog\\dizi_film_blog\\weblogin\\images\\b1.jpg",
-              "RelativeToolTip": "dizi_film_blog\\weblogin\\images\\b1.jpg",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2025-02-15T21:55:22.047Z",
+              "Title": "login.aspx.cs",
+              "DocumentMoniker": "D:\\masaustu_yedek\\GITHUB\\diziFilm_blog_w_asp.net\\dizi_film_blog\\dizi_film_blog\\login.aspx.cs",
+              "RelativeDocumentMoniker": "dizi_film_blog\\login.aspx.cs",
+              "ToolTip": "D:\\masaustu_yedek\\GITHUB\\diziFilm_blog_w_asp.net\\dizi_film_blog\\dizi_film_blog\\login.aspx.cs",
+              "RelativeToolTip": "dizi_film_blog\\login.aspx.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAUwBYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T18:43:10.949Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
@@ -42,7 +52,33 @@
               "RelativeToolTip": "dizi_film_blog\\login.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-02-15T21:52:49.848Z",
+              "WhenOpened": "2025-02-18T18:57:53.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Bloglar.aspx.cs",
+              "DocumentMoniker": "D:\\masaustu_yedek\\GITHUB\\diziFilm_blog_w_asp.net\\dizi_film_blog\\dizi_film_blog\\AdminSayfalar\\Bloglar.aspx.cs",
+              "RelativeDocumentMoniker": "dizi_film_blog\\AdminSayfalar\\Bloglar.aspx.cs",
+              "ToolTip": "D:\\masaustu_yedek\\GITHUB\\diziFilm_blog_w_asp.net\\dizi_film_blog\\dizi_film_blog\\AdminSayfalar\\Bloglar.aspx.cs",
+              "RelativeToolTip": "dizi_film_blog\\AdminSayfalar\\Bloglar.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T18:56:00.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Bloglar.aspx",
+              "DocumentMoniker": "D:\\masaustu_yedek\\GITHUB\\diziFilm_blog_w_asp.net\\dizi_film_blog\\dizi_film_blog\\AdminSayfalar\\Bloglar.aspx",
+              "RelativeDocumentMoniker": "dizi_film_blog\\AdminSayfalar\\Bloglar.aspx",
+              "ToolTip": "D:\\masaustu_yedek\\GITHUB\\diziFilm_blog_w_asp.net\\dizi_film_blog\\dizi_film_blog\\AdminSayfalar\\Bloglar.aspx",
+              "RelativeToolTip": "dizi_film_blog\\AdminSayfalar\\Bloglar.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-02-18T18:55:52.709Z",
               "EditorCaption": ""
             }
           ]
